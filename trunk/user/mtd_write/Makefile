@@ -1,7 +1,7 @@
 USERDIR = $(ROOTDIR)/user
 SHDIR = $(ROOTDIR)/user/shared
 
-EXEC = mtd_write
+EXEC = mtd
 OBJS = mtd.o
 
 CFLAGS += -I$(SHDIR)/include
